@@ -6,6 +6,8 @@ import Contact from './pages/contact/Contact'
 import Doctores from './pages/doctores/Doctores'
 import Gallery from './pages/gallery/Gallery'
 import Navbar from './components/navbar'
+import Footer from './components/Footer'
+
 function App() {
    
   return (
@@ -16,6 +18,7 @@ function App() {
       <Contact/>
       <Doctores/>
       <Gallery/>
+      <Footer/>
     </BrowserRouter>
   )
 }
