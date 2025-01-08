@@ -1,5 +1,18 @@
-*{
-    background-color: rgb(97, 84, 84);
-    margin: 0; 
-    box-sizing: border-box;
+// Normalización de css
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-gray-200);
+    line-height: 1.7;
+    overflow: hidden;
+    background-color: var(--color-gray-900);
 }
