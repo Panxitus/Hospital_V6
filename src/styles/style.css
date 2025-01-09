@@ -33,7 +33,6 @@ img {
   width: 100vw;
   background-color: azure;
   display: grid;
-  place-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -56,6 +55,18 @@ img {
 }
 .nav__toggle-btn {
   display: none;
+}
+.nav__button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.nav__button:hover {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

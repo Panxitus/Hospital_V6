@@ -16,6 +16,7 @@ const Navbar = () =>{
            <button className="nav__toggle-btn"> 
                 <FaBars/>
            </button>
+           <button className="nav__button">Reservar Horas</button>
         </div>
     </nav>
   )
