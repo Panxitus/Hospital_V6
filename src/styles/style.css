@@ -16,4 +16,46 @@ body {
   background-color: var(--color-gray-900);
 }
 
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nav {
+  height: 5rem;
+  width: 100vw;
+  background-color: azure;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav__logo {
+  width: 5rem;
+}
+.nav__menu {
+  display: flex;
+  gap: 4.5rem;
+  align-items: center;
+}
+.nav__toggle-btn {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

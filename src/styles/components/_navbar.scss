@@ -1,0 +1,36 @@
+.nav{
+    height: 5rem;
+    width: 100vw;
+    background-color:azure;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99;
+
+    &__container{
+        
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    &__logo{
+        width: 5rem
+    }
+
+    &__menu{
+        display: flex;
+        gap: 4.5rem;
+        align-items: center;
+    }
+
+    &__toggle-btn{
+        display: none;
+    }
+}
+
+ 
